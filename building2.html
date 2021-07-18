@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神祈介紹與導覽</title>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/lightbox.css">
+    <script src="js/building.js"></script>
+    <link rel="stylesheet" href="css/building2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./img/城隍廟logo2_withcloud.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous"></link>   
+        <style>
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <input type="checkbox" name="" id="check-btn">
+    <label for="check-btn">
+        <i class="fas fa-bars" id='btn'></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <a href="#header" id="top-btn"><i class="fas fa-chevron-circle-up"></i></a>
+    <div class="header"id="header">
+        <div class="logobox">
+          <img  src="img/logo3 (2).png"   alt="">
+         
+        </div> 
+    </div>
+
+
+    <nav class="container-fluid">
+        <ul class="dropdown">
+            <li class="dropdown-btn "><a href="homepage.html">首頁</a></li>
+            <li class="dropdown-btn md-hidden"><a href="news.html">最新消息</a></li>
+            <li class="dropdown-btn"><a href="history.html">歷史沿革</a>
+                <!-- <ul class="dropdown-content">
+                    <li><a href="#">前言</a></li>
+                    <li><a href="#">城隍信仰的由來</a></li>
+                    <li><a href="#">城隍信仰的變遷</a></li>
+                </ul> -->
+            </li>
+            <li class="dropdown-btn"><a href="celebration.html">慶典服務</a>
+                <ul class="dropdown-content">
+                    <li><a href="service.html">服務項目</a></li>
+                    <li><a href="celebration.html">各項慶典與法會</a></li>
+                    <li><a href="activity.html">活動剪影</a></li>
+                </ul>
+            </li>
+            <!-- <li class="dropdown-btn "><a href="building.html">神祇介紹與導覽</a>
+                <ul class="dropdown-content">
+                    <li><a href="building.html">建築形式與配置</a></li>
+                    <li><a href="building2.html">一樓大殿</a></li>
+                    <li><a href="building3.html">二樓大雄寶殿</a></li>
+                    <li><a href="building4.html">殿前供像與觀音像</a></li>
+                </ul>
+            </li> -->
+            <li class="dropdown-btn lg-hidden"><a href="culture.html">文化典藏與志業</a>
+                <!-- <ul class="dropdown-content ">
+                    <li><a href="#">宗教文化</a></li>
+                    <li><a href="#">慈善公益關懷</a></li>
+                    <li><a href="#">建築裝飾</a></li>
+                    <li><a href="#">匾額</a></li>
+                    <li><a href="#">對聯陳奇祿書</a></li>
+                    <li><a href="#">紀念文件</a></li>
+                </ul> -->
+            </li>
+            <li class="dropdown-btn lg-hidden"><a href="#">董監事介紹</a>
+                <ul class="dropdown-content">
+                    <li><a href="keymanlist.html">歷任倡建與領導人</a></li>
+                    <li><a href="group.html">現代法人執事人員名錄</a></li>
+
+
+                </ul>
+            </li>
+            <li class="dropdown-btn"><a href="lehuo.html">樂活省城隍</a>
+                <ul class="dropdown-content">
+                    <li><a href="lehuo.html">參拜順序</a></li>
+                    <li><a href="lehuo1.html">線上抽籤</a></li>
+                    <li><a href="lehuo2.html">籤詩解釋</a></li>
+                    <li><a href="lehuo3.html">城隍爺商圈</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </nav>
+    <div class="sidebar">
+        <ul>
+            <header class="nav-title">台灣省城隍爺</header>
+            <li><a href="#"></i>最新消息
+                </a></li>
+            <li><a href="history.html">歷史沿革</a></li>
+            <li><a href="celebration.html">慶典服務</a></li>
+            <li><a href="building.html">神祇介紹與導覽</a></li> 
+            <li><a href="keymanlist.html">董監事介紹</a></li>
+            <li><a href="lehuo.html">樂活省城隍</a></li>
+            <p style="margin-top: 20px; font-size: 22px;">神祇導覽與介紹</p>
+            <hr>
+            <li><a class="textsmall" href="building.html">建築形式與配置格局</a></li>
+            <li><a class="textsmall" href="building2.html">一樓大殿神龕及供像</a></li>
+            <li><a class="textsmall" href="building3.html">二樓大雄寶殿供像</a></li>
+            <li><a class="textsmall" href="building4.html">殿前供像與庭院觀音像</a></li>
+
+        </ul>
+    </div>
+
+
+    <div class="all" style="background-image: url(./img/bgmain.png);">
+        <div class="wrap md-hidden">
+            <div class="tabs-header">
+                <ul>
+                    <p>神祈介紹與導覽</p>
+                    <li><a id="tab1" href="#">建築形式與配置格局</a></li>
+                    <li><a id="tab2" href="#">一樓大殿神龕及供像</a></li>
+                    <li><a id="tab3" href="#">二樓大雄寶殿供像</a></li>
+                    <li><a id="tab4" href="#">殿前供像與庭院觀音像</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div id="content-1">
+            <div class="tabs-item">
+                <h1 class="title">【一樓大殿神龕及供像】
+                </h1>
+                <div class="item-txt">
+                    <div class="sidebar2">
+                        <div class="lanpa">
+                        <div class="ball">
+                            <a href="#wenwu"><img src="./img1/文武判官圈圈.png" width="140" height="140" id="wenchunball"></a>
+                            <a href="#wenchun"><img src="./img1/文昌圈圈.png" width="140" height="140" id="wenchunball"></a>
+                            <a href="#chunhuan"><img src="./img1/城隍夫人圈圈.png" width="140" height="140"
+                                    id="wenchunball"></a>
+                            <a href="#sansu1"><img src="./img1/東壁三司圈圈.png" width="140" height="140" id="wenchunball"></a>
+                            <a href="#sansu2"><img src="./img1/西壁三司.png" width="140" height="140" id="wenchunball"></a>
+                            <a href="#chiya"><img src="./img1/七爺八爺圈圈.png" width="140" height="140" id="wenchunball"></a>
+                        </div>
+                        </div>
+                        <h2> 一、正殿南壁</h2>
+                        <h3>（一）正中神龕</h3>
+                        <p>城隍廟正殿神龕內，以藍色的牆面，鑲崁著金黃色的騰龍，翻滾於雲端波濤間，內安置神明像，一字排開。神龕正中部份，向前推出以木作屋形加上捲文雕花為飾的神龕，內供奉著主神省城隍爺坐像，神龕外圍雕琢複繁，左右有蟠龍柱，東西兩側柱上均嵌有對聯。
+                        </p>
+                        <hr>
+                    </div>
+                    <article class="main-areap2">
+                        <img src="./img1/一樓大殿.jpg" width="450px" height="370px" class="mainimg1">
+                        <figure class="figurestyle">一樓大殿</figure>
+                    </article>
+
+                    <div class="sidebar2">
+                        <h3 id="wenwu">（二）神龕內供像</h3>
+
+                        <p>而神龕內中央部分，總計供奉著三尊城隍爺及兩對文武判官。其中居於木造屋形神鑫內位居正中者，是為鎮殿城隍爺，是最原始的主尊。另兩尊則為副駕及軟身城隍，共同鎮守內殿。
+                        </p>
+                        <ol class="txtchange" style="padding-left: 100px;">
+                            <li>1. 鎮殿城隍爺神尊</li>
+                            <li>2. 鎮殿副駕城隍神尊</li>
+                            <li>3. 軟身城隍神尊</li>
+                            <li>4. 出巡城隍神尊 </li>
+                            <li>5. 文判官</li>
+                            <li>6. 武判官</li>
+                        </ol>
+
+                    </div>
+                    <div class="four">
+                        <div class="fourpic">
+                            <div class="imgboxp2">
+                                <figcaption class="figcaptionstyle">
+                                    <img src="./img1/鎮殿文判.png" alt="鎮殿文判官" width="200" height="350" class="im">
+                                    <figure class="figurestyle">鎮殿文判官</figure>
+                                </figcaption>
+                            </div>
+                            <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                                <p>像作立姿，身長較高，頭戴文官帽，腦後左右伸出雙翅，黑色長鬚垂及胸部，雙手握住笏板，倚向右脅，面相斯文。</p>
+                            </div>
+                        </div>
+
+                        <div class="fourpic">
+                            <div class="imgboxp2">
+                                <figcaption class="figcaptionstyle">
+                                    <img src="./img1/副駕文判.jpg" alt="副駕文判官" width="200" height="350" class="im">
+                                    <figure class="figurestyle">副駕文判官</figure>
+                                </figcaption>
+                            </div>
+                            <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                                <p>木製神龕東側，另有一尊木刻文判官，雙足一前一後作丁字型分開，立在六角形木壇上，右手持判官筆，左手持書卷，以表判人生死。</p>
+                            </div>
+                        </div>
+                        <div class="fourpic">
+                            <div class="imgboxp2">
+                                <figcaption class="figcaptionstyle">
+                                    <img src="./img1/鎮殿武判.png" alt="鎮殿武判官" width="200" height="350">
+                                    <figure class="figurestyle">鎮殿武判官</figure>
+                                </figcaption>
+                            </div>
+                            <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                                <p>面色錠青，雙目圓睜，細眉貼金，張口露齒，頭戴圓形帽，腦後左右突出桃型翅，身穿帝甲衣袍，右手握長筆，左手持卷軸。</p>
+                            </div>
+                        </div>
+                        <div class="fourpic">
+                            <div class="imgboxp2">
+                                <figcaption class="figcaptionstyle">
+                                    <div class="fourpic">
+                                        <img src="./img1/副駕武判.jpg" alt="副駕武判官" width="200" height="350">
+                                        <figure class="figurestyle">副駕武判官</figure>
+                                </figcaption>
+                            </div>
+                            <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                                <p>面呈墨綠顏色，緊閉雙唇，雙眉粗厚，顧骨貼金，頭戴武士頭眉冠，鎧甲嵌鑲珠寶，左手上舉節棍棒，右手伸出兩指，威武氣勢。</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar2" id="wenchun">
+                    <h3>（三）正龕西側供像</h3>
+                    <p>正龕東側的龕壁，底漆淡藍顏色，猶如淡藍色天空，壁上突塑大刀、疏文彩帶、金色葫蘆、雲朵、浪花等紋飾。
+                    </p>
+                    <ol class="txtchange" style="padding-left: 100px;">
+                        <li>1. 文昌帝君</li>
+                        <li>2. 魁星</li>
+                        <li>3. 濟公禪師</li>
+                        <li>4. 太歲斗座 </li>
+                    </ol>
+                    <hr>
+                </div>
+                <div class="four">
+                    <div class="fourpic">
+                        <div class="imgboxp2">
+                            <figcaption class="figcaptionstyle">
+                                <img src="./img1/文昌帝君.jpg" alt="文昌帝君" width="200" height="350">
+                                <figure class="figurestyle">文昌帝君</figure>
+                            </figcaption>
+                        </div>
+                        <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                            <p>文昌帝君作坐姿，頭戴文官帽。帝君五官俊秀， 氣宇軒昂，黑色長髯長及腰腹，表現出溫文爾雅的文人氣息。</p>
+                        </div>
+                    </div>
+                    <div class="fourpic">
+                        <div class="imgboxp2">
+
+                            <figcaption class="figcaptionstyle">
+                                <img src="./img1/魁星0.jpg" alt="魁星" width="200" height="350">
+                                <figure class="figurestyle">魁星</figure>
+                            </figcaption>
+                        </div>
+                        <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                            <p>全身漆黑，頭頂突起，兩鬢生角，眉骨高聳，上身裸裎，下著褲裳，右手高舉長筆，左手緊握經卷，右足踩鱉魚，左足懸空踢斗。 </p>
+                        </div>
+                    </div>
+                    <div class="fourpic">
+                        <div class="imgboxp2">
+                            <figcaption class="figcaptionstyle">
+                                <img src="./img1/濟公禪師.jpg" alt="濟公禪師" width="200" height="350">
+                                <figure class="figurestyle">濟公禪師</figure>
+                            </figcaption>
+                        </div>
+                        <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                            <p>頭戴僧帽，面部鼓腮張口露齒，滿臉笑意，身穿交領右衽服，服長掩膝，腰身繫帶，右手執扇，左手托葫蘆。 </p>
+                        </div>
+                    </div>
+                    <div class="fourpic">
+                        <div class="imgboxp2">
+                            <figcaption class="figcaptionstyle">
+                                <div class="fourpic">
+                                    <img src="./img1/太歲斗座.jpg" alt="太歲斗座" width="200" height="350">
+                                    <figure class="figurestyle">太歲斗座</figure>
+                            </figcaption>
+                        </div>
+                        <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                            <p>濟公座像之旁，供有太歲斗座，座內插有劍、尺、扇、鏡、秤稱、剪刀、燈、米等，以及值年太歲牌位。 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar2" id="chunhuan">
+                    <h3>（四）正龕東側神龕及供像</h3>
+                    <p>東側神龕內供主神為兩尊城隍夫人，其中接近木造主尊神鑫者，身形體積尺度較小，是與鎮殿城隍神尊同時塑作，稱為「鎮殿城隍夫人」，
+                        至於身旁體形較大者，是與鎮殿副駕城隍神尊同組的木刻作品，「副駕城隍夫人」。</p>
+                    <hr>
+                </div>
+
+                <div class="two">
+                    <div class="twopic">
+                        <div class="imgboxp2">
+                            <figcaption class="figcaptionstyle">
+                                <img src="./img1/鎮殿城隍夫人.jpg" alt="鎮殿城隍夫人" width="200" height="350">
+                                <figure class="figurestyle">鎮殿城隍夫人</figure>
+                            </figcaption>
+                        </div>
+
+                            <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                                <p>頭戴圓彩冠，五官端正，耳垂厚實，身穿龍鳳文金色長袍，腰圈硬質綬帶，坐方形寬椅，袍服下端露出三寸金蓮。 </p>
+                            </div>
+                    </div>
+                    <div class="twopic">
+                        <div class="imgboxp2">
+
+                            <figcaption class="figcaptionstyle">
+                                <img src="./img1/副駕城隍夫人.jpg" alt="副駕城隍夫人" width="200" height="350">
+                                <figure class="figurestyle">副駕城隍夫人</figure>
+                            </figcaption>
+                        </div>
+
+                        <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                            <p>坐在高廣大椅上，頭戴高廣花釵冠，冠飾垂及雙腿，身穿華貴錦袍，為木雕作品。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar2">
+                    <h2 id="sansu1">二、正殿東壁神龕及神像</h2>
+                    <p>正殿東西兩壁，另安置木製櫥櫃式神龕，其中東壁神龕寬155.4 公分，上端寬158 公分。神龕前下桌高86 公分深77
+                        公分。神龕內壁以線刻浮雕一隻白色龍首獸身足蹄的神獸像，像上並有金色彩繪，十分亮麗。東龕神龕龕內供三神像，曰「獎善司」、「糾察司」、「陰陽司」。</p>
+                    <hr>
+                </div>
+                <div class="threepic">
+                            <img src="./img1/獎善司三司.jpg" width="350px" height="300px" class="mainimg1">
+                    <figure class="figurestyle">「獎善司」、「糾察司」、「陰陽司」</figure>
+
+                </div>
+                <div class="sidebar2">
+                    <h2 id="sansu2">三、正殿西壁神龕及神像</h2>
+                    <p>西壁神龕的造形與尺寸，與東壁神龕一式，龕內供三神像，曰：「速報司」、「延壽司」、「罰惡司」。三司神像均頭戴圓形冠帽，身上袍服衣飾，一如東壁三司神像，而整體造像外形姿勢雖一式，但冠帽鬚髮顏色有別，手勢稍有差異，持物亦各不相同。其中「速報司」臉呈黑色，黑鬚垂腹，圓帽頂上，另鉤金冠，雙目圓瞪，右手插腰，右腿橫置，更添威儀。
+                    </p>
+                    <hr>
+                </div>
+                <article class="threepic">
+                    <img src="./img1/延壽司三司.png" width="350px" height="300px" class="mainimg1">
+                    <figure class="figurestyle">「速報司」、「延壽司」、「罰惡司」</figure>
+                </article>
+                <div class="sidebar2">
+                    <h2 id="chiya">四、大殿外神像</h2>
+                    <p>大殿左右側門外，尚供奉著兩尊侍神像，即謝將軍與范將軍：</p>
+                    <hr>
+                </div>
+                <div class="two1">
+                    <div class="twopic1">
+                        <div class="imgboxp2">
+                        <figcaption class="figcaptionstyle">
+                            <img src="./img1/范將軍.jpg" alt="范將軍" width="280" height="350">
+                            <figure class="figurestyle">范將軍</figure>
+                        </figcaption>
+                        </div>
+                        <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                            <p>俗稱八爺，頭戴大形放射狀珠花冠，身披錦繡彩帶服，面寬廣黝黑，身軀矮短，與七爺身材長短正相對比。坐在高廣大椅上。
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="twopic1">
+                        <div class="imgboxp2">
+
+                        <figcaption class="figcaptionstyle">
+                            <img src="./img1/謝將軍.jpg" alt="謝將軍" width="280" height="350">
+                            <figure class="figurestyle">謝將軍</figure>
+                        </figcaption>
+                        </div>
+                        <div class="xd xdp2" style="background-color: rgba(7, 6, 7, 0.26);">
+                            <p>俗稱七爺，頭戴大形放射狀珠花冠，雙眼圓睜，面色黝黑，顴骨突出，面呈狹長，張口露齒，身披錦繡彩帶服。
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+        <!-- ============================content1 end======= -->
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <footer >
+        <div style="width:100%;background-color: rgba(245, 242, 237, 0.979); display: flex;margin: auto;justify-content: center;padding: 20px 0;">
+            <p  style="font-size: 20px;">&copy 2021</p>
+            <div class="footer-txt">
+                <a href="homepage.html" style="font-size: 20px;margin: 0 10px;color: rgb(104, 101, 101);">回首頁</a>
+                <a href="news.html" style="font-size: 20px;color: rgb(104, 101, 101);">關於城隍爺</a>
+            </div>
+          
+        </div>
+    </footer>
+    <div id="iink">
+        <a href="#check-btn">
+             <img src="img/00Back to top (Hover State)@2X.png" alt="">
+        </a>
+        <div style="text-align: center;font-size: 22px;">
+             <p>
+             <h4>回到最上方</h4>
+             </p>
+        </div>
+    </div>
+    </body>
+</html>

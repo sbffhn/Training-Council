@@ -1,0 +1,332 @@
+/* ＝＝＝＝＝＝導覽列引入--==== */
+.sidebar{
+    background-color: rgba(245, 242, 237, 0.979);
+    position: fixed;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    left: -200px; 
+    z-index: 998;
+    /* transition: all 0.5s; */
+   opacity: 1;
+   
+}
+label #cancel{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    padding: 6px 12px;
+    z-index: 11111;
+    left:-160px;
+    top: 12px;
+    font-size: 30px;
+    z-index: 999;
+}
+label #btn{
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+    position:absolute;
+    top: 25px;
+    display: none;
+    z-index: 998;
+}
+#check-btn{
+    opacity: 1;
+    float: left;
+    display: none;
+    /* left: -20px; */
+}
+/* ========輪播＝＝＝＝＝＝ */
+.carousel{
+    transition: all .6s;
+}
+.mycarousel{
+    transform: scale(1);
+    opacity: 1;
+    transition-duration: 0.7s;
+    transition-property: transform;
+    transition-timing-function: ease;
+}
+.mycarousel:hover{
+    transform: scale(1.05); 
+    box-shadow: 0 3px 9px black;
+}
+
+.nav-title{
+    
+    color: rgb(146, 13, 13);
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    width:100%;
+    background-color: rgba(245, 222, 179, 0.348);
+
+}
+.sidebar ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.sidebar ul li a{
+    display: block;
+    padding: 20px 0;
+    color: rgb(94, 47, 47);
+    font-size: 20px;
+}
+.sidebar ul li a:hover{
+    background-color: rgba(245, 222, 179, 0.348);
+}
+
+
+#check-btn:checked~label #cancel{
+    
+    left: 160px;
+    
+}
+#check-btn:checked~.sidebar{
+    left:0px;
+   
+}
+
+
+/* =========單獨相片＝＝＝＝＝＝＝  */
+.banner-img{
+    width: 100%;
+ }
+ .banner-img img{
+     width: 100%
+    
+ } 
+
+ /* ========文字區======== */
+ #txt-btn{
+    text-align: end;
+}
+#txt-btn a{
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(97, 94, 94,0.6);
+}
+.txtbox p,.txtbox h1{
+    line-height: 50px;
+}
+
+#txt-btn a:hover{
+    color:wheat;
+}
+
+
+/* ==========影片區＝＝＝＝＝＝＝ */
+
+
+#video-box{
+    background-color: antiquewhite;
+}
+#video{
+    background-image: url("/img/homevideo.jpeg");
+    text-align: center;
+    padding: 50px 0; 
+    
+}
+#video iframe{
+    width: 700px;
+    height: 315px;
+}
+
+
+
+/* ============== 安太歲連結＝＝＝＝＝ */
+.linkbox{
+    background-color: rgb(240, 199, 122);
+    text-align: center;
+    font-size: 0;
+    width: 100%;
+}
+#link{
+    background-color: rgb(240, 199, 122);
+    font-size: 28px;
+    color: white;
+    font-family: 'Ma Shan Zheng', cursive;
+    width: 100%;
+}
+/* ============== 線上求籤＝＝＝＝＝ */
+.row{
+    max-width: 100%;
+    
+}
+#content,#news{
+    background-color: white;
+    margin: auto;
+}
+
+#content-img img{
+    width: 100%;
+    margin: auto;
+}
+#content-txt{
+    text-align: center;
+    width: 100%;
+    padding: 120px 30px;
+    background-color: white;
+
+}
+#content-txt1{
+    padding: 80px 0;
+    text-align: center;
+    
+}
+#content-txt h1{
+    color: rgb(138, 7, 7);
+    line-height: 50px;
+}
+#content-txt h4{
+    line-height: 40px;
+    font-size: 20px;
+}
+#content-txt a{
+    display:  inline-block;
+    background-color: burlywood;
+    color: white;
+    padding: 10px;
+    border-radius: 40%;
+    margin-top: 40px;
+    box-shadow: 2px 8px #6d6d6a;
+    transition: all .3s ;
+}
+#content-txt a:active{
+    transform: translateY(8px);
+    box-shadow: 3px 3px #6d6d6a;
+}
+#news h1{
+    text-align: center;
+    color: rgb(138, 7, 7);
+    padding: 30px 0;
+}
+.btn{
+    background-color: wheat;
+   border: none;
+   width: 100%;
+}
+
+/* ===============最新消息＝＝＝＝＝＝ */
+.card-flex{
+    display:flex;
+    justify-content: center;
+}
+#card-item{
+    width: 23%;
+    margin: 0 20px;
+}
+#news-btn{
+    
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(97, 94, 94,0.6);
+    text-align: center;
+}
+#news-btn a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(97, 94, 94);
+}
+#news-btn a:hover{
+    color:wheat;
+}
+/* ===========footer====== */
+footer{
+    width: 100%;
+    vertical-align: top;
+    height: 480px;
+    background-color:rgba(245, 222, 179, 0.800);
+    padding: 10px 0;
+}
+footer img{
+    margin: 20px;
+}
+.fab,.fas{
+    font-size: 60px;
+    padding: 0 20px;
+}
+#footer2{
+    height: 70px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    background: #eee;
+}
+#footer2 a{
+    color: rgb(104, 101, 101);
+    font-size: 20px;
+    
+}
+#iink {
+    /*	定位在視窗右下角，用 fixed */
+    position: fixed;
+    right: 20px;
+    bottom: 5px;
+    transform: scale(0.4, 0.4);
+    opacity: 0.5;
+    transition: 0.1S;
+
+}
+#iink:hover {
+    opacity: 1;
+    transform: scale(0.5, 0.5);
+}
+@media screen and (max-width:600px) {
+    .sm-hidden{
+        display: none;
+    }
+    
+  
+    /* .dropdown{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 ;
+        justify-content: center;
+        border-top: 1px solid rgb(163, 159, 159,0.400);
+        border-bottom: 1px solid rgba(163, 159, 159, 0.400);
+        background-color: rgba(245, 242, 237, 0.979);
+    } */
+  
+    
+}
+
+
+@media screen and (max-width:768px) {
+    nav{
+       display: none;       
+    }
+
+    .md-hidden{
+        display: none;
+    }
+    label #btn{
+        color:rgb(0, 0, 0);
+        font-size: 50px;
+        position:absolute;
+        top: 25px;
+        display: block;
+    }
+    #video iframe{
+        width: 400px;
+        height: 315px;
+    }
+
+}
+@media screen and (max-width:960px) {
+    .lg-hidden{
+        display: none;
+    }
+        
+    #card-item{
+        width: 23%;
+        margin: 0 10px;
+    }
+}
+
+

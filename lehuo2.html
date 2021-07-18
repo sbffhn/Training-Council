@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>樂活省城隍</title>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/lightbox.css">
+    <script src="js/lehuo.js"></script>
+    <script src="js/table.js"></script>
+    <link rel="stylesheet" href="css/lehuo.css">
+    <link rel="stylesheet" href="css/building2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./img/城隍廟logo2_withcloud.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous"></link>   
+    <style>
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <input type="checkbox" name="" id="check-btn">
+    <label for="check-btn">
+        <i class="fas fa-bars" id='btn'></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <a href="#header" id="top-btn"><i class="fas fa-chevron-circle-up"></i></a>
+    <div class="header"id="header">
+        <div class="logobox">
+          <img  src="img/logo3 (2).png"   alt="">
+        </div> 
+    </div>
+    
+
+
+    <nav class="container-fluid">
+        <ul class="dropdown">
+            <li class="dropdown-btn "><a href="homepage.html">首頁</a></li>
+            <li class="dropdown-btn md-hidden"><a href="news.html">最新消息</a></li>
+            <li class="dropdown-btn"><a href="history.html">歷史沿革</a>
+                <!-- <ul class="dropdown-content">
+                    <li><a href="#">前言</a></li>
+                    <li><a href="#">城隍信仰的由來</a></li>
+                    <li><a href="#">城隍信仰的變遷</a></li>
+                </ul> -->
+            </li>
+            <li class="dropdown-btn"><a href="celebration.html">慶典服務</a>
+                <ul class="dropdown-content">
+                    <li><a href="service.html">服務項目</a></li>
+                    <li><a href="celebration.html">各項慶典與法會</a></li>
+                    <li><a href="activity.html">活動剪影</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-btn "><a href="building.html">神祇介紹與導覽</a>
+                <ul class="dropdown-content">
+                    <li><a href="building.html">建築形式與配置</a></li>
+                    <li><a href="building2.html">一樓大殿</a></li>
+                    <li><a href="building3.html">二樓大雄寶殿</a></li>
+                    <li><a href="building4.html">殿前供像與觀音像</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-btn lg-hidden"><a href="culture.html">文化典藏與志業</a>
+                <!-- <ul class="dropdown-content ">
+                    <li><a href="#">宗教文化</a></li>
+                    <li><a href="#">慈善公益關懷</a></li>
+                    <li><a href="#">建築裝飾</a></li>
+                    <li><a href="#">匾額</a></li>
+                    <li><a href="#">對聯陳奇祿書</a></li>
+                    <li><a href="#">紀念文件</a></li>
+                </ul> -->
+            </li>
+            <li class="dropdown-btn lg-hidden"><a href="#">董監事介紹</a>
+                <ul class="dropdown-content">
+                    <li><a href="keymanlist.html">歷任倡建與領導人</a></li>
+                    <li><a href="group.html">現代法人執事人員名錄</a></li>
+
+
+                </ul>
+            </li>
+            <!-- <li class="dropdown-btn"><a href="lehuo.html">樂活省城隍</a>
+                <ul class="dropdown-content">
+                    <li><a href="lehuo.html">參拜順序</a></li>
+                    <li><a href="lehuo1.html">線上抽籤</a></li>
+                    <li><a href="lehuo2.html">籤詩解釋</a></li>
+                    <li><a href="lehuo3.html">城隍爺商圈</a></li>
+                </ul>
+            </li> -->
+        </ul>
+
+    </nav>
+    <div class="sidebar">
+        <ul>
+            <header class="nav-title">台灣省城隍爺</header>
+            <li><a href="#"></i>最新消息
+                </a></li>
+            <li><a href="history.html">歷史沿革</a></li>
+            <li><a href="celebration.html">慶典服務</a></li>
+            <li><a href="building.html">神祇介紹與導覽</a></li> 
+            <li><a href="keymanlist.html">董監事介紹</a></li>
+            <p style="margin-top: 20px; font-size: 22px;">樂活省城隍</p>
+            <hr>
+            <li><a class="textsmall" href="lehuo.html">參拜順序</a></li>
+            <li><a class="textsmall" href="lehuo1.html">線上抽籤</a></li>
+            <li><a class="textsmall" href="lehuo2.html">籤詩解釋</a></li>
+            <li><a class="textsmall" href="lehuo3.html">城隍商圈</a></li>
+
+        </ul>
+    </div>
+
+
+    <div class="all" style="background-image: url(./img/bgmain.png);">
+        <div class="wrap md-hidden">
+            <div class="tabs-header"style="width: 160%;">
+                <ul>
+                    <p>樂活省城隍</p>
+                    <li><a id="tab1" href="lehuo.html">參拜順序</a></li>
+                    <li><a id="tab2" href="lehuo1.html">線上抽籤</a></li>
+                    <li><a id="tab3" href="lehuo2.html">籤詩解釋</a></li>
+                    <li><a id="tab4" href="lehuo3.html">城隍商圈</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div id="content-1" >
+            <div class="tabs-item">
+                <h1 class="title">【籤詩解釋】</h1>
+                <div class="item-txt tablechange1">
+                    <div id="tablechange">
+
+                        <div class="whole">
+                            <table width="40px" border="1" cellspacing="5" cellpadding="10">
+                                <tbody class="charset">
+                                    <tr>
+                                         <td class="hov"><a id="tab-1" href="#click2">&nbsp第&nbsp01&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-2" href="#click2">&nbsp第&nbsp02&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-3" href="#click2">&nbsp第&nbsp03&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-4" href="#click2">&nbsp第&nbsp04&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-5" href="#click2">&nbsp第&nbsp05&nbsp籤&nbsp</a></td>
+                                    </tr>
+                                    <tr>
+                                         <td class="hov"><a id="tab-6" href="#click2">&nbsp第&nbsp06&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-7" href="#click2">&nbsp第&nbsp07&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-8" href="#click2">&nbsp第&nbsp08&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-9" href="#click2">&nbsp第&nbsp09&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-10" href="#click2">&nbsp第&nbsp10&nbsp籤&nbsp</a></td>
+                                    </tr>
+                                    <tr>
+                                         <td class="hov"><a id="tab-11" href="#click2">&nbsp第&nbsp11&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-12" href="#click2">&nbsp第&nbsp12&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-13" href="#click2">&nbsp第&nbsp13&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-14" href="#click2">&nbsp第&nbsp14&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-15" href="#click2">&nbsp第&nbsp15&nbsp籤&nbsp</a></td>
+                                    </tr>
+                                    <tr>
+                                         <td class="hov"><a id="tab-16" href="#click2">&nbsp第&nbsp16&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-17" href="#click2">&nbsp第&nbsp17&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-18" href="#click2">&nbsp第&nbsp18&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-19" href="#click2">&nbsp第&nbsp19&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-20" href="#click2">&nbsp第&nbsp20&nbsp籤&nbsp</a></td>
+                                    </tr>
+                                    <tr>
+                                         <td class="hov"><a id="tab-21" href="#click2">&nbsp第&nbsp21&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-22" href="#click2">&nbsp第&nbsp22&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-23" href="#click2">&nbsp第&nbsp23&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-24" href="#click2">&nbsp第&nbsp24&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-25" href="#click2">&nbsp第&nbsp25&nbsp籤&nbsp</a></td>
+                                    </tr>
+                                    <tr>
+                                         <td class="hov"><a id="tab-26" href="#click2">&nbsp第&nbsp26&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-27" href="#click2">&nbsp第&nbsp27&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-28" href="#click2">&nbsp第&nbsp28&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-29" href="#click2">&nbsp第&nbsp29&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-30" href="#click2">&nbsp第&nbsp30&nbsp籤&nbsp</a></td>
+                                    </tr>
+                                    <tr>
+                                         <td class="hov"><a id="tab-31" href="#click2">&nbsp第&nbsp31&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-32" href="#click2">&nbsp第&nbsp32&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-33" href="#click2">&nbsp第&nbsp33&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-34" href="#click2">&nbsp第&nbsp34&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-35" href="#click2">&nbsp第&nbsp35&nbsp籤&nbsp</a></td>
+                                    </tr>
+                                    <tr>
+                                         <td class="hov"><a id="tab-36" href="#click2">&nbsp第&nbsp36&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-37" href="#click2">&nbsp第&nbsp37&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-38" href="#click2">&nbsp第&nbsp38&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-39" href="#click2">&nbsp第&nbsp39&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-40" href="#click2">&nbsp第&nbsp40&nbsp籤&nbsp</a></td>
+                                    </tr>
+                                    <tr>
+                                         <td class="hov"><a id="tab-41" href="#click2">&nbsp第&nbsp41&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-42" href="#click2">&nbsp第&nbsp42&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-43" href="#click2">&nbsp第&nbsp43&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-44" href="#click2">&nbsp第&nbsp44&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-45" href="#click2">&nbsp第&nbsp45&nbsp籤&nbsp</a></td>
+                                    </tr>
+                                    <tr>
+                                         <td class="hov"><a id="tab-46" href="#click2">&nbsp第&nbsp46&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-47" href="#click2">&nbsp第&nbsp47&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-48" href="#click2">&nbsp第&nbsp48&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-49" href="#click2">&nbsp第&nbsp49&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-50" href="#click2">&nbsp第&nbsp50&nbsp籤&nbsp</a></td>
+                                    </tr>
+                                    <tr>
+                                         <td class="hov"><a id="tab-51" href="#click2">&nbsp第&nbsp51&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-52" href="#click2">&nbsp第&nbsp52&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-53" href="#click2">&nbsp第&nbsp53&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-54" href="#click2">&nbsp第&nbsp54&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-55" href="#click2">&nbsp第&nbsp55&nbsp籤&nbsp</a></td>
+                                    </tr>
+                                    <tr>
+                                         <td class="hov"><a id="tab-56" href="#click2">&nbsp第&nbsp56&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-57" href="#click2">&nbsp第&nbsp57&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-58" href="#click2">&nbsp第&nbsp58&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-59" href="#click2">&nbsp第&nbsp59&nbsp籤&nbsp</a></td>
+                                         <td class="hov"><a id="tab-60" href="#click2">&nbsp第&nbsp60&nbsp籤&nbsp</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div  id="click2"> 
+                            <p>籤詩說明 </p></div>
+                       
+                        <div id="click1">
+                            <div class="middleimg">
+                                <img src="./img/sign1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div >
+                            <div class="explaination">
+                                <img src="./img/no1.png" alt="" >
+                            </div>
+                        </div>
+
+                      
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ==================gogo -->
+
+
+
+            <!-- ============================content1 end======= -->
+        </div>
+    </div>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div
+            style="width:100%;background-color: rgba(245, 242, 237, 0.979); display: flex;margin: auto;justify-content: center;padding: 20px 0;">
+            <p style="font-size: 20px;">&copy 2021</p>
+            <div class="footer-txt">
+                <a href="homepage.html" style="font-size: 20px;margin: 0 10px;color: rgb(104, 101, 101);">回首頁</a>
+                <a href="news.html" style="font-size: 20px;color: rgb(104, 101, 101);">關於城隍爺</a>
+            </div>
+
+        </div>
+    </footer>
+    <div id="iink">
+        <a href="#check-btn">
+            <img src="img/00Back to top (Hover State)@2X.png" alt="">
+        </a>
+        <div style="text-align: center;font-size: 22px;">
+            <p>
+            <h4>回到最上方</h4>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
