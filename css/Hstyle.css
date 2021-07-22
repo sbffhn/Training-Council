@@ -237,27 +237,30 @@ nav{
 
 /* 服務項目/START */
 .ink-box {
-     border-width: 2px 3px 2px 5px;
-     border-radius: 90% 6% 93% 5% / 5% 94% 7% 95%;
+     border-bottom: dashed black 5px;
+     border-radius: 0px;
      /* 做出傾斜的視覺感 */
      
      
 }
 .ink-box-double {
      transform: scale(1);
-     border: dashed black 2px;
      animation-name:normal-logo-animation;
      animation-duration: 1s;
      animation-timing-function: ease;
      animation-iteration-count: 1;
      animation-direction: normal;
-     transition-duration: 1s;
+     transition-duration: 0.5s;
      transition-property: transform;
      transition-timing-function: ease;
    }
 .ink-box-double:hover{
-     transform: scale(1.05);
-     box-shadow:3px 3px 3px 3px #ffd700;
+     border: none;
+     color: white;
+     border-radius: 20px;
+     background-color: black;
+     transform: scale(1.03);
+     box-shadow: #ffd700;
      
 }
 
