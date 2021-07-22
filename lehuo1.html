@@ -18,7 +18,6 @@
     <link rel="shortcut icon" type="image/png" href="./img/城隍廟logo2_withcloud.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous"></link>   
     
-
     
 
 
@@ -87,7 +86,7 @@
             <!-- <li class="dropdown-btn"><a href="lehuo.html">樂活省城隍</a>
                 <ul class="dropdown-content">
                     <li><a href="lehuo.html">參拜順序</a></li>
-                    <li><a href="lehuo1.html">線上抽籤</a></li>
+                    <li><a href="lehuo1.html">線上求籤</a></li>
                     <li><a href="lehuo2.html">籤詩解釋</a></li>
                     <li><a href="lehuo3.html">城隍爺商圈</a></li>
                 </ul>
@@ -107,7 +106,7 @@
             <p style="margin-top: 20px; font-size: 22px;">樂活省城隍</p>
             <hr>
             <li><a class="textsmall" href="lehuo.html">參拜順序</a></li>
-            <li><a class="textsmall" href="lehuo1.html">線上抽籤</a></li>
+            <li><a class="textsmall" href="lehuo1.html">線上求籤</a></li>
             <li><a class="textsmall" href="lehuo2.html">籤詩解釋</a></li>
             <li><a class="textsmall" href="lehuo3.html">城隍商圈</a></li>
 
@@ -119,7 +118,7 @@
                 <ul>
                     <p>樂活省城隍</p>
                     <li><a id="tab1" href="lehuo.html">參拜順序</a></li>
-                    <li><a id="tab2" href="lehuo1.html">線上抽籤</a></li>
+                    <li><a id="tab2" href="lehuo1.html">線上求籤</a></li>
                     <li><a id="tab3" href="lehuo2.html">籤詩解釋</a></li>
                     <li><a id="tab4" href="lehuo3.html">城隍商圈</a></li>
 
@@ -129,7 +128,7 @@
         </div>
         <div id="content-1">
             <div class="tabs-item">
-                <h1 class="title">【線上抽籤】</h1>
+                <h1 class="title">【線上求籤】</h1>
                 <div class="item-txt">
                     <p style="padding: 20px;"><h3>求籤前須知：</h3>
                         <br>聖筊：呈現一凸、一平，表示「對、好、可以」。
@@ -137,7 +136,7 @@
                         <br>笑筊：呈現平、平，表示陳述不清楚無法裁示，可再次向神明請示，接著重新擲筊。
                         
                         <h3>開始求籤：</h3>
-                        請在心中虔誠地默念自己的姓名、出生年月日、住址，誠心祈求城隍爺指點迷津，將想請教的事情詳細說明後，請點選：步驟一、抽籤進行線上求籤。</p>
+                        請在心中虔誠地默念自己的姓名、出生年月日、住址，誠心祈求城隍爺指點迷津，將想請教的事情詳細說明後，請點選：步驟一、求籤進行線上求籤。</p>
                         <hr>
                     </div>    
 
@@ -151,13 +150,32 @@
                     <button class="sign-btn" onclick="begin()">步驟一、抽籤</button>
                     
                 </div>
+                
                 <div class="sign-content">
                     <img class="stick2" src="./img/stick.png" alt="">
                     <div class="sign-txt"></div>
-                   <button id='round1'onclick="round1()">步驟二、開始擲筊</button>
+                   <button id='round1'onclick="round()">步驟二、開始擲筊</button>
                 </div>
-                <div class="process">
+
+                <!-- <div class="process"> -->
                     <!-- ======在這顯示圖片＝＝＝＝＝ -->
+                    <div class="process">
+                        <!-- ======在這顯示圖片＝＝＝＝＝ -->
+                        <div id=result-img></div>
+                       
+                        <div id="result"></div>
+                        <input  id='round2' style="display: none;" type="button" value="第二次">
+    
+                        <input  id='round3' style="display: none;" type="button" value="最後一次">
+    
+                        
+                        <input  id="Again" style="display: none;"type="button" value="重來">
+    
+                        <a href="#signbox">
+                            <input  id='gogo' style="display: none;" type="button" value="解籤去">
+                        </a>
+                    </div>                    
+                    
                     <div id=result-img></div>
                     <div id="result"></div>
                     <input  id='round2' style="display: none;" type="button" value="第二次">
@@ -177,7 +195,9 @@
                     <div id="sign-txt"></div>   
                     <div id="sign-txt2"></div> 
                     <br>
+                    <div id='Again2box'>
                     <input  id="Again2" style="display: none; margin: 10px auto;"type="button" value="重來">
+                    </div>
             </div>
             
       
@@ -186,8 +206,7 @@
 
 
             <!-- ==================gogo -->
-
-
+            
 
 
             <!-- ============================content1 end======= -->

@@ -44,8 +44,8 @@ label #cancel{
     font-size: 30px;
 }
 label #btn{
-    color:rgb(2, 2, 2);
-    font-size: 50px;
+    color:wheat;
+    font-size: 90px;
     left: 30px;
     position:absolute;
     top: 25px;
@@ -202,7 +202,7 @@ nav{
 
 
 #content-1{
-        padding: 0 40px;
+       
         width: 60%;
         margin: auto;
 }
@@ -534,7 +534,7 @@ box-shadow: 8px 12px 28px rgba(0, 0, 0, 0.200);
 =============動畫＝＝＝＝＝＝＝＝＝ */
 .sign{
     /* max-width: 800px;
-    height: 400px;
+    height: 400px; 
     background-color: white;
     border: 3px black solid;
     border-radius: 70px; */
@@ -547,8 +547,8 @@ box-shadow: 8px 12px 28px rgba(0, 0, 0, 0.200);
     
 }
 .sign-btnbox{
-    margin-left: -40px;
-    margin-right: 40px;
+    /* margin-left: -40px; */
+    /* margin-right: 20px; */
    width: 30%;
 }
 
@@ -584,7 +584,8 @@ box-shadow: 8px 12px 28px rgba(0, 0, 0, 0.200);
 .stick2{
     width: 20px;   
     height: 155px;
-    padding-left: 50px;
+    padding-left: 60px;
+    padding-right: 100px;
 }
 .sign-btn2{
     padding:10px;
@@ -592,27 +593,33 @@ box-shadow: 8px 12px 28px rgba(0, 0, 0, 0.200);
     /* display:block; */
 }
 .sign-txt{
-    padding: 5px;
     text-align: center;
+}
+.sign .sign-txt p{ 
+    font-size: 18px;
+    
 }
 /* 333333333333333333 */
 
 .process{
-    margin-top: 45px;
+    margin-top: 65px;
     display: none;
+    text-align: center;
 }
 .process img{
     width: 235px;
     height: 200px;
 }
 #round1{
-    width: 150px;
+    margin-top: 5px;
+    width: 170px;
     height: 43px;
 }
 #result-img{
-    text-align: center;
+    padding-bottom: 10px;
+   margin: auto;
     width: 120px;
-    margin: 8px 12px;
+  
 }
 #result-img img{
     width: 130px;
@@ -620,36 +627,46 @@ box-shadow: 8px 12px 28px rgba(0, 0, 0, 0.200);
 }
 #round2,#round3,#Again,#gogo{
     padding: 10px;
-    margin-left: 75px;
     margin-bottom: 10px;
 }
 #result{
-    font-size: 18px;
-    padding: 10px;
+    font-size: 20px;
+    
 }
 .signbox{
     display: flex;
-    width: 600px;
+    width: 100%;
     margin: auto;
     margin-top: 80px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 #no{
     width: 100%;
     color: #333;
     text-align: center;
     font-family: 'Ma Shan Zheng', cursive;
+    margin-bottom: 20px;
 }
 #sign-txt2 img,#sign-txt img{
-    width: 275px;
+    width: 255px;
     height: 570px;
     margin: 0 10px;
 }
-.signbox #Again2{
-    width: 60px;
-}
 
+.signbox  #Again2box{
+    width: 100%;
+    text-align: center;
+}
+.signbox #Again2{
+    width: 20%;
+}
+@media screen and (max-width:960px) {
+    .signbox{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 /* ===============結束＝＝＝＝＝ */
 
@@ -702,7 +719,7 @@ footer{
     opacity: 1;
     transform: scale(0.5, 0.5);
 }
-@media screen and (max-width: 768px)
+/* @media screen and (max-width: 768px)
 {
     .md-hidden{
         display: none;
@@ -721,7 +738,7 @@ footer{
     .lg-hidden{
         display: none;
     }
-}
+} */
 
 /* =====building第一頁開始1/4======= */
 .buildingtxt {
@@ -743,11 +760,15 @@ footer{
 /* =====building第二頁開始2/4======= */
 
 .main-areap2 {
-    width: 100%;
     width: 570px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .main-areap2 img{
+    margin: 10px auto;
     width: 100%;
 }
 
@@ -756,9 +777,10 @@ footer{
 .four {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
-    padding-left: 100px;
+    justify-content: center;
+    margin: auto;
 }
+
 
 .fourpic img {
     padding: 5px;
@@ -768,14 +790,14 @@ footer{
 
 .sidebar2 {
     width: 100%;
-    padding: 20px;
-    font-size: 20px;
+  
     text-align: justify;
   }
 
-.figurestyle {
+.figurestyle{
     color:#660000;
     font-family: 'Ma Shan Zheng', cursive;
+    padding-bottom: 10px;
   }
 
 .figcaptionstyle {
@@ -783,9 +805,11 @@ footer{
     border-style: double;
 }
 
+
+
 .figcaptionstyle img{
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 375px;
 }
 
 .two {
@@ -793,11 +817,21 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin: auto;
+}
+
+.twopic1 img{
+    width: 350px;
+    height: 450px;
 }
 
 .threepic {
     text-align: center;
-    padding-left: 100px;
+}
+
+.threepic img{
+    width: 450px;
+    height: 350px;
 }
 
 .two1 {
@@ -823,19 +857,37 @@ footer{
     opacity: 0.5;
     transform: scale(1.2);
 }
-
+.lanpa{
+    max-width: 90%;
+    margin: 0 auto;
+   
+}
+@media screen and (max-width:1366px) {
+    .lanpa{
+        max-width:390px;
+        margin: 0 auto;
+       
+    }
+    .ball {
+    
+        max-width: 390px;
+    }
+}
 .ball {
+    
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 20px;
-    padding-left: 80px;
+    padding-left: 10px;
     margin: auto;
 }
 
 
 
+
 /* =====building第三頁開始3/4======= */
 
+/* 三寶佛&彌勒佛PIC */
 .two2 {
     display: flex;
     flex-wrap: wrap;
@@ -843,38 +895,60 @@ footer{
     width: 100%;
 }
 
-.main-areap3 .adjust .imgbox img{
-    width: 100%;
+.twopic2 img{
+    height: 350px;
+    width: 333px;
 }
-
-.main-areap3 .adjust .imgbox{
-    width: 70%;
+/* 釋迦摩尼佛PIC */
+.main-areap3 {
+    width: 570px;
     margin: auto;
 }
 
-.adjust {
-    margin: auto;
-}
-
-.xd .p3{
-    width: 70%;
-}
-
-
-
-
-
-/* .twopic2 {
+.main-areap3 img{
     width: 100%;
-} */
+    height: 350px;
+}
+/* 呂仙、地藏王、觀音、關公PIC */
+.main-areap4 {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main-areap4 .adjust .imgbox img{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.p3{
+    width: 100%;
+}
+
+
+
+
+
 
 /* =====building第四頁開始4/4======= */
 
 .two3 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin: auto;
+}
+
+.twopic3 .imgbox img{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+ 
 }
 
 .mainimg1 {
@@ -883,12 +957,13 @@ footer{
 	box-shadow: 3px 3px 5px #020202;
 }
 
-.main-areap4{
+.main-areap5{
     width: 50%;
     margin: auto;    
 }
 
-.main-areap4 img{
+
+.main-areap5 img{
     width: 350px;
     height: 405px;
 }
@@ -904,6 +979,7 @@ footer{
 .twopic1:hover .xd, .twopic2:hover .xd,
 .adjust:hover .xd, .twopic3:hover .xd{
     display: block;
+    
 }
 
 
@@ -916,9 +992,7 @@ footer{
     right: 5;
     display: none;
     color: #ffffff;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 80px;
+    padding: 80px 10px 0 10px;
     text-align: justify;
     font-size: 20px;
     font-family: 'Ma Shan Zheng', cursive;
@@ -952,17 +1026,37 @@ max-width: 80%;
     } 
     #content-1{
         width: 100%;
-        margin: auto;
+        box-sizing: border-box;
+        padding: 0 10px;
+        /* margin: auto; */
     }
     .four {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
-        width: 600px;
+        width: 300px;
         padding-left: 100px;
     }
 
+    .main-areap4 .adjust .imgbox img{
+        width: 100%;
+    }
 
+    .main-areap2 {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .threepic {
+        width: 100%;
+    }
+
+    p {
+        padding-right: 15px;
+    }
 }
 @media screen and (max-width: 1060px)
 {
@@ -976,7 +1070,6 @@ max-width: 80%;
         display: flex;
         flex-wrap: wrap;
         padding-bottom: 20px;
-        padding-left: 80px;
         width: 550px;
         margin: auto;
     }

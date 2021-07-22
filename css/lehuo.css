@@ -68,11 +68,12 @@ label #cancel{
 }
 label #btn{
     color:wheat;
-    font-size: 40px;
+    font-size: 90px;
+    left: 30px;
     position:absolute;
-    top: 55px;
-    display: block;
-    z-index: 999;
+    top: 25px;
+    display: none; 
+    z-index: 99;
 }
 #check-btn{
     opacity: 0;

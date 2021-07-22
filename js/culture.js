@@ -16,7 +16,7 @@ $(document).ready(function(){
             <h3>2. 剪黏雕塑：</h3>
             <p>正殿正門外牆的牆堵上，左右各有一堵剪黏雕塑，古色古香，長期被香燻成暗褐色，色彩雖已不再鮮明，反而有一股古樸的藝術氣息。</p>
             <figcaption class="pic01">
-                <img src="/img/culture-01.jpeg" alt="">
+                <img src="./img/culture-01.jpeg" alt="">
                 <figure>臺灣省城隍廟全景，如護龍外牆上的石雕透窗等。</figure>
             </figcaption>
             
@@ -37,7 +37,7 @@ $(document).ready(function(){
 
         <div class="imgtxt-item">
            <div class="imgbox">
-                <img src="/img/culture-2.jpeg" alt="">
+                <img src="./img/culture-2.jpeg" alt="">
             </div>
                     <div class="txt">
                         <h1>1.牌樓與正殿屋脊的建築裝飾</h1>
@@ -52,14 +52,14 @@ $(document).ready(function(){
                          <p>正殿前拜亭其頂上屋脊為單簷歇山式，紅色圓柱支撐，屋簷下飾以斗拱、垂花吊筒等。屋脊正脊筆直，脊上加高，形成西施脊，脊上以碎瓷剪黏技巧，製作出題為「雙龍吐水」與「福祿壽三仙」的裝飾，十分華麗耀眼。</p>
                       </div>
                       <div class="imgbox">
-                        <img src="/img/culture-03.jpeg" alt="">
+                        <img src="./img/culture-03.jpeg" alt="">
                     </div>
          </div>
 
          <div class="imgtxt-item">
 
             <div class="imgbox">
-                <img  style="height: 100px;padding: 80px 0px;" src="/img/culture-04.jpeg" alt="">
+                <img  style="height: 100px;padding: 80px 0px;" src="./img/culture-04.jpeg" alt="">
             </div>
             
             <div class="txt">
@@ -78,7 +78,7 @@ $(document).ready(function(){
                 <p>正殿步口廊前上方橫樑，亦以剪黏方式浮塑出題為八仙與南極仙翁的圖飾，在鮮豔的紅色為底色之上，黏貼著較淡彩的八仙人物，造形姿勢變化多端，或乘騎各種不同動物，十分生動活潑，用色相當凸顯，是為泥塑像上彩的雕塑表現。</p>
              </div>
             <div class="imgbox">
-                <img  style="height: 250px;" src="/img/culture-05.jpeg" alt="">
+                <img  style="height: 250px;" src="./img/culture-05.jpeg" alt="">
             </div>
             
         </div>
@@ -86,8 +86,8 @@ $(document).ready(function(){
         <div class="imgtxt-item">
             
             <div class="imgbox"  >
-                <img  style="width: 50%;" src="/img/culture-12.jpeg" alt="">
-                <img  style="width: 50%;" src="/img/culture-13.jpeg" alt="">
+                <img  style="width: 50%;" src="./img/culture-12.jpeg" alt="">
+                <img  style="width: 50%;" src="./img/culture-13.jpeg" alt="">
 
             </div>
             <div class="txt">
@@ -113,6 +113,16 @@ $(document).ready(function(){
                 <hr>
                 <br>
                 <div class="Plaque">
+                    <div class="Plaque-item">
+                        <div class="picbox">
+                            <img src="img/a0201-1.jpeg" alt="">
+                        </div>
+                        <div class="Pla-txt">
+                            <h2>1. 蕭萬長-護國佑民</h2>
+                            <p>（時任行政院長曾任副總統）</p> 
+                        </div>
+                    </div>
+                
                    
                   
                     <div class="Plaque-item">
@@ -120,8 +130,8 @@ $(document).ready(function(){
                             <img src="img/a0203.jpeg" alt="">
                         </div>
                         <div class="Pla-txt">
-                            <h2>1. 蕭萬長-護國佑民</h2>
-                            <p>（時任行政院長曾任副總統）</p>
+                            <h2>2. 陳水扁-威靈顯赫</h2>
+                            <p>（時任總統）</p>
                         </div>
                     </div>
                     <div class="Plaque-item">
@@ -129,8 +139,9 @@ $(document).ready(function(){
                             <img src="img/a0204.jpeg" alt="">
                         </div>
                         <div class="Pla-txt">
-                            <h2>2. 陳水扁-威靈顯赫</h2>
-                            <p>（時任總統）</p>
+                        <h2>3. 余政憲-善德功深</h2>
+                        <p>（時任內政部長）
+                            財團法人臺北市臺灣省城隍廟九十年度捐資興辦公益慈善社會教化事業績優表揚大會</p>
                         </div>
                     </div>
     
@@ -139,9 +150,8 @@ $(document).ready(function(){
                             <img src="img/a0205.jpeg" alt="">
                         </div>
                         <div class="Pla-txt">
-                            <h2>3. 余政憲-善德功深</h2>
-                            <p>（時任內政部長）
-                                財團法人臺北市臺灣省城隍廟九十年度捐資興辦公益慈善社會教化事業績優表揚大會</p>
+                        <h2>4. 黃大洲-正俗安民</h2>
+                        <p>（時任臺北市長）</p>
                         </div>
                     </div>
     
@@ -150,8 +160,9 @@ $(document).ready(function(){
                             <img src="img/a0206.jpeg" alt="">
                         </div>
                         <div class="Pla-txt">
-                            <h2>4. 黃大洲-正俗安民</h2>
-                            <p>（時任臺北市長）</p>
+                        <h2>5. 馬英九-積善崇德</h2>
+                        <p>（時任台北市長）
+                            財團法人臺北市臺灣省城隍廟九十三年度興辦公益慈善及社會教化事業績優留念</p>
                         </div>
                     </div>
     
@@ -160,9 +171,8 @@ $(document).ready(function(){
                             <img src="img/a0207.jpeg" alt="">
                         </div>
                         <div class="Pla-txt">
-                            <h2>5. 馬英九-積善崇德</h2>
-                            <p>（時任台北市長）
-                                財團法人臺北市臺灣省城隍廟九十三年度興辦公益慈善及社會教化事業績優留念</p>
+                        <h2>6. 連戰-保境安民</h2>
+                        <p>（時任行政院長）</p>
                         </div>
                     </div>
     
@@ -171,24 +181,14 @@ $(document).ready(function(){
                             <img src="img/a0208.jpeg" alt="">
                         </div>
                         <div class="Pla-txt">
-                            <h2>6. 連戰-保境安民</h2>
-                            <p>（時任行政院長）</p>
+                        <h2>7. 陳愷暨第四屆董監事-你也來了</h2>
+                        <p>（時任臺灣省城隍廟第四屆董事長）</p>
                         </div>
                     </div>
     
                     <div class="Plaque-item">
                         <div class="picbox">
                             <img src="img/a0209.jpeg" alt="">
-                        </div>
-                        <div class="Pla-txt">
-                            <h2>7. 陳愷暨第四屆董監事-你也來了</h2>
-                            <p>（時任臺灣省城隍廟第四屆董事長）</p>
-                        </div>
-                    </div>
-    
-                    <div class="Plaque-item">
-                        <div class="picbox">
-                            <img src="img/a0210.jpeg" alt="">
                         </div>
                         <div class="Pla-txt">
                             <h2>8. 全國城隍廟聯誼會-神威顯赫</h2>
@@ -199,7 +199,7 @@ $(document).ready(function(){
     
                     <div class="Plaque-item">
                         <div class="picbox">
-                            <img src="img/a0211.jpeg" alt="">
+                            <img src="img/a0210.jpeg" alt="">
                         </div>
                         <div class="Pla-txt">
                             <h2>9. 陳奇祿-鑑觀善惡</h2>
@@ -209,18 +209,18 @@ $(document).ready(function(){
     
                     <div class="Plaque-item">
                         <div class="picbox">
-                            <img src="img/a0212.jpeg" alt="">
+                            <img src="img/a0211.jpeg" alt="">
                         </div>
                         <div class="Pla-txt">
-                            <h2>10. 馬英九-保境安民</h2>
-                            <p>（時任市長）
-                                財團法人臺北市臺灣省城隍廟參加本市「2006 臺北宗教藝陣嘉年華-全國城隍大會師」紀念</p>
+                        <h2>10. 馬英九-保境安民</h2>
+                        <p>（時任市長）
+                            財團法人臺北市臺灣省城隍廟參加本市「2006 臺北宗教藝陣嘉年華-全國城隍大會師」紀念</p>
                         </div>
                     </div>
     
                     <div class="Plaque-item">
                         <div class="picbox">
-                            <img src="img/a0213.jpeg" alt="">
+                            <img src="img/a0212.jpeg" alt="">
                         </div>
                         <div class="Pla-txt">
                             <h2>11. 馬英九-行善德昭</h2>
@@ -231,12 +231,23 @@ $(document).ready(function(){
     
                     <div class="Plaque-item">
                         <div class="picbox">
-                            <img src="img/a0214.jpeg" alt="">
+                            <img src="img/a0213.jpeg" alt="">
                         </div>
                         <div class="Pla-txt">
                             <h2>12. 李逸洋-德惠廣佈</h2>
                             <p>（時任內政部長）
                                 財團法人臺北市臺灣省城隍廟94 年度興辦公益慈善及社會教化事業績優表揚大會</p>
+                        </div>
+                    </div>
+    
+                    <div class="Plaque-item">
+                        <div class="picbox">
+                            <img src="img/a0214.jpeg" alt="">
+                        </div>
+                        <div class="Pla-txt">
+                        <h2>13. 馬英九-善德功深</h2>
+                        <p>（（時任市長）
+                        財團法人臺北市臺灣省城隍廟92 年度興辦公益慈善及社會教化事業績優留念</p>
                         </div>
                     </div>
                     <div class="Plaque-item">

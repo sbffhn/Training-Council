@@ -45,6 +45,7 @@ $(document).ready(function () {
                 </h1>
                 <div class="item-txt">
                     <div class="sidebar2">
+                        <div class="lanpa">
                         <div class="ball">
                             <a href="#wenwu"><img src="./img1/文武判官圈圈.png" width="140" height="140" id="wenchunball"></a>
                             <a href="#wenchun"><img src="./img1/文昌圈圈.png" width="140" height="140" id="wenchunball"></a>
@@ -54,16 +55,17 @@ $(document).ready(function () {
                             <a href="#sansu2"><img src="./img1/西壁三司.png" width="140" height="140" id="wenchunball"></a>
                             <a href="#chiya"><img src="./img1/七爺八爺圈圈.png" width="140" height="140" id="wenchunball"></a>
                         </div>
+                        </div>
                         <h2> 一、正殿南壁</h2>
                         <h3>（一）正中神龕</h3>
                         <p>城隍廟正殿神龕內，以藍色的牆面，鑲崁著金黃色的騰龍，翻滾於雲端波濤間，內安置神明像，一字排開。神龕正中部份，向前推出以木作屋形加上捲文雕花為飾的神龕，內供奉著主神省城隍爺坐像，神龕外圍雕琢複繁，左右有蟠龍柱，東西兩側柱上均嵌有對聯。
                         </p>
                         <hr>
                     </div>
-                    <article class="main-area">
-                        <img src="./img1/一樓大殿.jpg" width="450px" height="370px" class="mainimg1">
+                    <div class="main-areap2">
+                        <img src="./img1/一樓大殿.jpg" height="370px">
                         <figure class="figurestyle">一樓大殿</figure>
-                    </article>
+                    </div>
 
                     <div class="sidebar2">
                         <h3 id="wenwu">（二）神龕內供像</h3>
@@ -82,9 +84,9 @@ $(document).ready(function () {
                     </div>
                     <div class="four">
                         <div class="fourpic">
-                            <div class="imgbox">
+                            <div class="imgboxp2">
                                 <figcaption class="figcaptionstyle">
-                                    <img src="./img1/鎮殿文判.png" alt="鎮殿文判官" width="200" height="350" class="im">
+                                    <img src="./img1/鎮殿文判.png" alt="鎮殿文判官">
                                     <figure class="figurestyle">鎮殿文判官</figure>
                                 </figcaption>
                             </div>
@@ -94,9 +96,9 @@ $(document).ready(function () {
                         </div>
 
                         <div class="fourpic">
-                            <div class="imgbox">
+                            <div class="imgboxp2">
                                 <figcaption class="figcaptionstyle">
-                                    <img src="./img1/副駕文判.jpg" alt="副駕文判官" width="200" height="350" class="im">
+                                    <img src="./img1/副駕文判.jpg" alt="副駕文判官">
                                     <figure class="figurestyle">副駕文判官</figure>
                                 </figcaption>
                             </div>
@@ -105,9 +107,9 @@ $(document).ready(function () {
                             </div>
                         </div>
                         <div class="fourpic">
-                            <div class="imgbox">
+                            <div class="imgboxp2">
                                 <figcaption class="figcaptionstyle">
-                                    <img src="./img1/鎮殿武判.png" alt="鎮殿武判官" width="200" height="350">
+                                    <img src="./img1/鎮殿武判.png" alt="鎮殿武判官">
                                     <figure class="figurestyle">鎮殿武判官</figure>
                                 </figcaption>
                             </div>
@@ -116,10 +118,9 @@ $(document).ready(function () {
                             </div>
                         </div>
                         <div class="fourpic">
-                            <div class="imgbox">
+                            <div class="imgboxp2">
                                 <figcaption class="figcaptionstyle">
-                                    <div class="fourpic">
-                                        <img src="./img1/副駕武判.jpg" alt="副駕武判官" width="200" height="350">
+                                        <img src="./img1/副駕武判.jpg" alt="副駕武判官">
                                         <figure class="figurestyle">副駕武判官</figure>
                                 </figcaption>
                             </div>
@@ -145,9 +146,9 @@ $(document).ready(function () {
                 </div>
                 <div class="four">
                     <div class="fourpic">
-                        <div class="imgbox">
+                        <div class="imgboxp2">
                             <figcaption class="figcaptionstyle">
-                                <img src="./img1/文昌帝君.jpg" alt="文昌帝君" width="200" height="350">
+                                <img src="./img1/文昌帝君.jpg" alt="文昌帝君">
                                 <figure class="figurestyle">文昌帝君</figure>
                             </figcaption>
                         </div>
@@ -156,10 +157,10 @@ $(document).ready(function () {
                         </div>
                     </div>
                     <div class="fourpic">
-                        <div class="imgbox">
+                        <div class="imgboxp2">
 
                             <figcaption class="figcaptionstyle">
-                                <img src="./img1/魁星0.jpg" alt="魁星" width="200" height="350">
+                                <img src="./img1/魁星0.jpg" alt="魁星" >
                                 <figure class="figurestyle">魁星</figure>
                             </figcaption>
                         </div>
@@ -168,9 +169,9 @@ $(document).ready(function () {
                         </div>
                     </div>
                     <div class="fourpic">
-                        <div class="imgbox">
+                        <div class="imgboxp2">
                             <figcaption class="figcaptionstyle">
-                                <img src="./img1/濟公禪師.jpg" alt="濟公禪師" width="200" height="350">
+                                <img src="./img1/濟公禪師.jpg" alt="濟公禪師" >
                                 <figure class="figurestyle">濟公禪師</figure>
                             </figcaption>
                         </div>
@@ -179,10 +180,10 @@ $(document).ready(function () {
                         </div>
                     </div>
                     <div class="fourpic">
-                        <div class="imgbox">
+                        <div class="imgboxp2">
                             <figcaption class="figcaptionstyle">
                                 <div class="fourpic">
-                                    <img src="./img1/太歲斗座.jpg" alt="太歲斗座" width="200" height="350">
+                                    <img src="./img1/太歲斗座.jpg" alt="太歲斗座">
                                     <figure class="figurestyle">太歲斗座</figure>
                             </figcaption>
                         </div>
@@ -200,9 +201,9 @@ $(document).ready(function () {
 
                 <div class="two">
                     <div class="twopic">
-                        <div class="imgbox">
+                        <div class="imgboxp2">
                             <figcaption class="figcaptionstyle">
-                                <img src="./img1/鎮殿城隍夫人.jpg" alt="鎮殿城隍夫人" width="200" height="350">
+                                <img src="./img1/鎮殿城隍夫人.jpg" alt="鎮殿城隍夫人">
                                 <figure class="figurestyle">鎮殿城隍夫人</figure>
                             </figcaption>
                         </div>
@@ -212,10 +213,10 @@ $(document).ready(function () {
                             </div>
                     </div>
                     <div class="twopic">
-                        <div class="imgbox">
+                        <div class="imgboxp2">
 
                             <figcaption class="figcaptionstyle">
-                                <img src="./img1/副駕城隍夫人.jpg" alt="副駕城隍夫人" width="200" height="350">
+                                <img src="./img1/副駕城隍夫人.jpg" alt="副駕城隍夫人">
                                 <figure class="figurestyle">副駕城隍夫人</figure>
                             </figcaption>
                         </div>
@@ -233,7 +234,7 @@ $(document).ready(function () {
                     <hr>
                 </div>
                 <div class="threepic">
-                            <img src="./img1/獎善司三司.jpg" width="350px" height="300px" class="mainimg1">
+                            <img src="./img1/獎善司三司.jpg">
                     <figure class="figurestyle">「獎善司」、「糾察司」、「陰陽司」</figure>
 
                 </div>
@@ -244,7 +245,7 @@ $(document).ready(function () {
                     <hr>
                 </div>
                 <article class="threepic">
-                    <img src="./img1/延壽司三司.png" width="350px" height="300px" class="mainimg1">
+                    <img src="./img1/延壽司三司.png">
                     <figure class="figurestyle">「速報司」、「延壽司」、「罰惡司」</figure>
                 </article>
                 <div class="sidebar2">
@@ -254,38 +255,31 @@ $(document).ready(function () {
                 </div>
                 <div class="two1">
                     <div class="twopic1">
-                        <div class="imgbox">
+                        <div class="imgboxp2">
                         <figcaption class="figcaptionstyle">
-                            <img src="./img1/范將軍.jpg" alt="范將軍" width="280" height="350">
+                            <img src="./img1/范將軍.jpg" alt="范將軍">
                             <figure class="figurestyle">范將軍</figure>
                         </figcaption>
                         </div>
                         <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
                             <p>俗稱八爺，頭戴大形放射狀珠花冠，身披錦繡彩帶服，面寬廣黝黑，身軀矮短，與七爺身材長短正相對比。坐在高廣大椅上。
-
-
                             </p>
                         </div>
                     </div>
                     <div class="twopic1">
-                        <div class="imgbox">
-
+                        <div class="imgboxp2">
                         <figcaption class="figcaptionstyle">
-                            <img src="./img1/謝將軍.jpg" alt="謝將軍" width="280" height="350">
+                            <img src="./img1/謝將軍.jpg" alt="謝將軍">
                             <figure class="figurestyle">謝將軍</figure>
                         </figcaption>
                         </div>
-                        <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                        <div class="xd xdp2" style="background-color: rgba(7, 6, 7, 0.26);">
                             <p>俗稱七爺，頭戴大形放射狀珠花冠，雙眼圓睜，面色黝黑，顴骨突出，面呈狹長，張口露齒，身披錦繡彩帶服。
                             </p>
                         </div>
 
                     </div>
                 </div>
-
-
-
-            </div>
         </div>
                 
                 `
@@ -301,7 +295,8 @@ $(document).ready(function () {
                 <div class="item-txt">
                     <div class="sidebar2">
                         <div class="ball">
-                            <a href="#phozu"><img src="./img1/釋迦摩尼佛圈圈.png" width="150" height="150" id="wenchunball"></a>
+                            <a href="#phozu"><img src="./img1/釋迦摩尼佛圈圈.png" width="150" height="150"
+                                    id="wenchunball"></a>
                             <a href="#zun"><img src="./img1/尊者圈圈.png" width="150" height="150" id="wenchunball"></a>
                             <a href="#guan"><img src="./img1/觀世音圈圈.png" width="150" height="150" id="wenchunball"></a>
                             <a href="#ryu"><img src="./img1/呂仙祖圈圈.png" width="150" height="150" id="wenchunball"></a>
@@ -315,10 +310,10 @@ $(document).ready(function () {
                         </p>
                         <hr>
                     </div>
-                    <article class="main-area">
-                        <img src="./img1/2F釋迦摩尼佛.jpg" width="800px" height="400px" class="mainimg1">
+                    <div class="main-areap3">
+                        <img src="./img1/2F釋迦摩尼佛.jpg">
                         <figure class="figurestyle">釋迦摩尼佛</figure>
-                    </article>
+                    </div>
                     <div class="sidebar2">
                         <h3>2. 三寶佛像</h3>
                         <h3>3. 彌勒佛</h3>
@@ -327,11 +322,11 @@ $(document).ready(function () {
                             <div class="twopic2">
                                 <div class="imgbox">
                                     <figcaption class="figcaptionstyle">
-                                        <img src="./img1/2F三寶佛像.jpg" alt="三寶佛像" width="350" height="400">
+                                        <img src="./img1/2F三寶佛像.jpg" alt="三寶佛像">
                                         <figure class="figurestyle">三寶佛像</figure>
                                     </figcaption>
                                 </div>
-                                <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                                <div class="xd p3" style="background-color: rgba(7, 6, 7, 0.26);">
                                     <p>三尊佛像一式坐姿、手式與服飾，均頂有青粓色螺狀髮文，披蓋兩肩的袍服，敞前胸，兩手交疊在腹前共作法界定印，並有持物。
                                     </p>
                                 </div>
@@ -340,11 +335,11 @@ $(document).ready(function () {
                                 <div class="imgbox">
 
                                     <figcaption class="figcaptionstyle">
-                                        <img src="./img1/2F彌勒佛.jpg" alt="彌勒佛" width="350" height="400">
+                                        <img src="./img1/2F彌勒佛.jpg" alt="彌勒佛">
                                         <figure class="figurestyle">彌勒佛</figure>
                                     </figcaption>
                                 </div>
-                                <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                                <div class="xd p3" style="background-color: rgba(7, 6, 7, 0.26);">
                                     <p>彌勒佛光頭無髮，大耳貼肩，顏面是張口露齒現笑容，身軀矮短以袒胸鼓腹露乳為姿。
                                     </p>
                                 </div>
@@ -359,11 +354,11 @@ $(document).ready(function () {
                         <div class="twopic1">
                             <div class="imgbox">
                                 <figcaption class="figcaptionstyle">
-                                    <img src="./img1/2F伽藍尊者.jpg" alt="伽藍尊者" width="300" height="400">
+                                    <img src="./img1/2F伽藍尊者.jpg" alt="伽藍尊者">
                                     <figure class="figurestyle">伽藍尊者</figure>
                                 </figcaption>
                             </div>
-                            <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                            <div class="xd p3" style="background-color: rgba(7, 6, 7, 0.26);">
                                 <p>左立像伽藍尊者，頭戴圓形帽，臉若紅棗，長鬚及至胸腹，手持大刀作武將打扮，有傳統關雲長的架式。
                                 </p>
                             </div>
@@ -372,11 +367,11 @@ $(document).ready(function () {
                             <div class="imgbox">
 
                                 <figcaption class="figcaptionstyle">
-                                    <img src="./img1/2F韋馱尊者.jpg" alt="韋馱尊者" width="300" height="400">
+                                    <img src="./img1/2F韋馱尊者.jpg" alt="韋馱尊者">
                                     <figure class="figurestyle">韋馱尊者</figure>
                                 </figcaption>
                             </div>
-                            <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
+                            <div class="xd p3" style="background-color: rgba(7, 6, 7, 0.26);">
                                 <p>中供桌兩側右立像韋馱尊者，面色淡紅，頭戴戰盔，身穿甲冑，手持鐧，姿勢俊秀威武。
                                 </p>
                             </div>
@@ -388,35 +383,35 @@ $(document).ready(function () {
                         <p>內側組供桌分上下供桌，上供桌供觀音菩薩像為主尊，觀音頂梳高髮髻，髻上飾化佛冠，髻頂披巾帽，胸前飾瓔珞，兩肩披掛漢式服，袍服寬鬆，兩袖寬闊，觀音右手上舉，持念珠，左手持經卷，雙腿結跏跌坐於大蓮花座上。
                         </p>
                     </div>
-                    <article class="main-area">
+                    <article class="main-areap4">
                         <div class="adjust">
                             <div class="imgbox">
-                                <img src="./img1/2F主尊觀音.jpg" width="700px" height="400px" class="mainimg1">
-                            <figure class="figurestyle">主尊觀音</figure>
+                                <img src="./img1/2F主尊觀音.jpg">
+                                <figure class="figurestyle">主尊觀音</figure>
+                            </div>
+
+                            <!-- <div class="xd p3" style="background-color: rgba(7, 6, 7, 0.26);">
+                                <p>主尊觀音前上供有木刻跏跌坐觀音，背後頭光、身光均為透雕，全身坐姿莊嚴，雙手結定印，表現了禪定與智慧。此坐姿觀音兩旁，左為青花瓷塑作半跏觀音法像。右為立姿觀音，左手拿淨瓶，右手持念珠，姿態自在。
+                                </p>
+                            </div> -->
                         </div>
-                        
-                        <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
-                            <p>主尊觀音前上供有木刻跏跌坐觀音，背後頭光、身光均為透雕，全身坐姿莊嚴，雙手結定印，表現了禪定與智慧。此坐姿觀音兩旁，左為青花瓷塑作半跏觀音法像。右為立姿觀音，左手拿淨瓶，右手持念珠，姿態自在。
-                            </p>
-                        </div>
-                    </div>
                     </article>
                     <div class="sidebar2">
                         <h3 id="ryu">2. 外側「孚佑帝君」神像</h3>
                         <p>外側組供桌分上下供桌。上供桌正中供奉呂祖，頭戴道帽，身披道服，面容端莊，臉色紅潤，人中以下五絡鬚，右手持拂塵，左手撫膝，袍服覆蓋雙腿，具文官的氣質及道士的威儀。此呂祖的中、小身法像，原是供奉於民間，民國七十四年因故轉供奉至此，原像兩旁尚供有持印侍童及持劍侍童。持印侍童接近文官打扮，手捧寶印。持劍侍童甲胃及身，腰間配劍，面色青綠，是武官形像。
                         </p>
                     </div>
-                    <article class="main-area">
+                    <article class="main-areap4">
                         <div class="adjust">
                             <div class="imgbox">
-                                <img src="./img1/2F呂仙祖0.jpg" width="700px" height="400px" class="mainimg1">
-                        <figure class="figurestyle">呂仙祖</figure>
-                    </div>
-                    <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
-                        <p>劍童印童，原是泥塑，因部分有損毀，遂於民國九十一年另新雕劍、印二童，稱「劍、印二將軍」。又因供桌較大，廟方遂將呂祖，依原像加大尺寸，重塑一組金身，原印童劍童，藏諸於櫃，新塑侍神與呂祖大中小三尊金身計五尊，同供於供桌上。
-                        </p>
-                    </div>
-                    </div>
+                                <img src="./img1/2F呂仙祖0.jpg">
+                                <figure class="figurestyle">呂仙祖</figure>
+                            </div>
+                            <!-- <div class="xd p3" style="background-color: rgba(7, 6, 7, 0.26);">
+                                <p>劍童印童，原是泥塑，因部分有損毀，遂於民國九十一年另新雕劍、印二童，稱「劍、印二將軍」。又因供桌較大，廟方遂將呂祖，依原像加大尺寸，重塑一組金身，原印童劍童，藏諸於櫃，新塑侍神與呂祖大中小三尊金身計五尊，同供於供桌上。
+                                </p>
+                            </div> -->
+                        </div>
                     </article>
                     <div class="sidebar2">
                         <h2 id="di">三、東側上供桌供像</h2>
@@ -424,42 +419,40 @@ $(document).ready(function () {
                         <p>東側內側上供桌主尊供像地藏菩薩頭帶毘盧冠，冠上鑲紅色珠寶，五官端莊，兩耳厚重，身披三層袍服，底層白服，中層為金色鑲邊交領袍服，外層為方型袈娑百納衣，左胸掛鉤，雙腿結跏跌坐於束腰仰蓮寶座上。此主尊地藏之前方，尚有一尊小型的木刻地藏尊像，頸後懸光輪，有火焰文，右手持錫杖，
                             左手托摩尼寶珠。</p>
                     </div>
-                    <article class="main-area">
+                    <article class="main-areap4">
                         <div class="adjust">
                             <div class="imgbox">
-                                <img src="./img1/2F地藏王.jpg" width="700px" height="400px" class="mainimg1">
-                        <figure class="figurestyle">地藏王</figure>
-                   </div>
-                   <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
-                    <p>地藏，梵名乞叉底槃沙（Ksiti-garbha），依大集大乘地藏十輪經曰「安忍不動，猶如大地。靜慮深密，猶如秘藏。」故稱地藏。地藏菩薩在忉利天蒙釋迦佛的囑付，於釋尊涅槃後，至彌勒菩薩成佛之間的無佛時代，發願來娑婆世界教化六道眾生，且自誓渡盡六道眾生方成佛。因有「地獄不空，誓不成佛」的願心誓言，故每逢超渡祖先時，必請出地藏菩薩。
-                    </p>
-                </div>
-            </div>
+                                <img src="./img1/2F地藏王.jpg">
+                                <figure class="figurestyle">地藏王</figure>
+                            </div>
+                            <!-- <div class="xd p3" style="background-color: rgba(7, 6, 7, 0.26);">
+                                <p>地藏，梵名乞叉底槃沙（Ksiti-garbha），依大集大乘地藏十輪經曰「安忍不動，猶如大地。靜慮深密，猶如秘藏。」故稱地藏。地藏菩薩在忉利天蒙釋迦佛的囑付，於釋尊涅槃後，至彌勒菩薩成佛之間的無佛時代，發願來娑婆世界教化六道眾生，且自誓渡盡六道眾生方成佛。因有「地獄不空，誓不成佛」的願心誓言，故每逢超渡祖先時，必請出地藏菩薩。
+                                </p>
+                            </div> -->
+                        </div>
                     </article>
                     <div class="sidebar2">
                         <h3 id="guangon">2. 外側「關聖帝君」像</h3>
                         <p>東側外側上供桌主尊供像為關聖帝君，頭頂圓帽，面色紅潤，形如紅案，劍眉軒昂，黑色長鬚及腰，肩披甲胃，腰束硬質綬帶，手握春秋經，身坐於高廣扶手椅之上。
                             左手托摩尼寶珠。關公身前兩側，立著周倉與關平，一位于握環頭七星大刀，黑臉圓睛，虯髯外張，神情威武。一位右手舉寶印，面相溫和，冠服華麗，有文官氣質。</p>
                     </div>
-                    <article class="main-area">
+                    <article class="main-areap4" style="padding-bottom: 15px;">
                         <div class="adjust">
                             <div class="imgbox">
 
-                        <img src="./img1/2F關聖帝君.jpg" width="700px" height="400px" class="mainimg1">
-                        <figure class="figurestyle">關聖帝君</figure>
-                    </div>
-                    <div class="xd" style="background-color: rgba(7, 6, 7, 0.26);">
-                        <p>-原名關羽，字雲長，三國時代的武將，與劉備、張飛在桃源結拜為兄弟，為人忠勇信義，統率大軍，轉戰南北，助劉備完成抗曹大業，卒後被封為漢亭侯，後被遵稱為「關聖帝君」。又具佛教文獻所載，關羽死後，曾接受佛法教化，皈依隋代智顗大師，發願守護伽藍信眾，因此在佛寺門前站的伽藍護法尊者，便是關羽。
-                        </p>
-                    </div>
-                    </div>
+                                <img src="./img1/2F關聖帝君.jpg">
+                                <figure class="figurestyle">關聖帝君</figure>
+                            </div>
+                            <!-- <div class="xd p3" style="background-color: rgba(7, 6, 7, 0.26);">
+                                <p>原名關羽，字雲長，三國時代的武將，與劉備、張飛在桃源結拜為兄弟，為人忠勇信義，統率大軍，轉戰南北，助劉備完成抗曹大業，卒後被封為漢亭侯，後被遵稱為「關聖帝君」。又具佛教文獻所載，關羽死後，曾接受佛法教化，皈依隋代智顗大師，發願守護伽藍信眾，因此在佛寺門前站的伽藍護法尊者，便是關羽。
+                                </p>
+                            </div> -->
+                        </div>
                     </article>
 
 
                 </div>
             </div>
-            
-            
             `
         )
     })
@@ -475,15 +468,15 @@ $(document).ready(function () {
                         </p>
                         <hr>
                     </div>
-                    <article class="main-area">
-                        <img src="./img1/大雄寶殿前室南側阿彌陀佛群像.jpg" width="800px" height="300px" class="mainimg1">
+                    <!-- <article class="main-area">
+                        <img src="./img1/大雄寶殿前室南側阿彌陀佛群像.jpg" width="500px" height="200px" style="margin: auto;">
                         <figure class="figurestyle">阿彌陀佛群像</figure>
-                    </article>
+                    </article> -->
                     <div class="two3">
                         <div class="twopic3">
                             <div class="imgbox">
                                 <figcaption class="figcaptionstyle">
-                                    <img src="./img1/大雄寶殿前室上端地藏王菩薩群像.jpg" alt="地藏王菩薩" width="400" height="200">
+                                    <img src="./img1/大雄寶殿前室上端地藏王菩薩群像.jpg" alt="地藏王菩薩">
                                     <figure class="figurestyle">地藏王菩薩群像</figure>
                                 </figcaption>
                             </div>
@@ -495,7 +488,7 @@ $(document).ready(function () {
                         <div class="twopic3">
                             <div class="imgbox">
                                 <figcaption class="figcaptionstyle">
-                                    <img src="./img1/大雄寶殿前室上龕觀音菩薩群像.jpg" alt="音菩薩" width="400" height="200">
+                                    <img src="./img1/大雄寶殿前室上龕觀音菩薩群像.jpg" alt="音菩薩" >
                                     <figure class="figurestyle">觀音菩薩群像</figure>
                                 </figcaption>
                             </div>
@@ -522,6 +515,7 @@ $(document).ready(function () {
                 </div>
                     </div>
                 </div>
+            
 `
         );
         $('span').on('click', opentxt);
@@ -586,6 +580,17 @@ $(document).ready(function () {
     })
 
 
+})
+
+const sr = ScrollReveal ({
+    distance: '60px',
+    duration: 2800,
+    // reset: true,
+})
+
+sr.revearl(`.main-areap2`,{
+    origin: 'top',
+    interval: 100,
 })
 
 

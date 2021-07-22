@@ -1,4 +1,21 @@
 $(document).ready(function () {
+    for (var i=1;i<=60;i++) {
+        $(".show").append
+        (
+            `<a id="a${i}" class="show60"href="#click2">第${i}籤</a>`
+        )
+        $("#a" + i).on("click", { num: i }, fnChange1);
+    }
+    
+    function fnChange1(a) {
+        // 取得選取的圖片編號並組成完成圖檔
+        var filename = "./img/sign" + a.data.num + ".png"
+        var filename2 = "./img/no" + a.data.num + ".png"
+        $(".show1").attr("src", filename);
+        $(".show2").attr("src", filename2);
+    }
+
+
 
 
     $('#tab1').click(function () {
@@ -18,7 +35,7 @@ $(document).ready(function () {
 
 
                         <article class="main-area">
-                            <img src="/img1/參拜順序.png" width="550px" height="470px" class="mainimg1">
+                            <img src="./img1/參拜順序.png" width="550px" height="470px" class="mainimg1">
                             <figure class="figurestyle">一樓大殿</figure>
                         </article>
 
@@ -281,7 +298,7 @@ $(document).ready(function () {
             `<img src="./img/no${j}.png" alt="" srcset="">`
         );
         $('#no').append(
-            `您的第${j}隻籤，以下為籤詩內容`
+            `您的第${j}支籤，以下為籤詩內容`
         );
         $('#Again2').toggle();
         // $('#gogo').off('click');  方法一 缺點按鈕還是可以點擊但沒有功能
@@ -306,7 +323,7 @@ $(document).ready(function () {
             console.log(j);
             alert('您抽到的籤為第:'+j+'籤')
             $('.sign-content').toggle();
-            $('.sign-txt').html('您的籤為第:'+j+'籤<br>');
+            $('.sign-txt').html('<p style="text-indent:0px;">您的籤為第:'+j+'籤<br></p>');
             // $('.sign-btn').off('click');   方法一 缺點按鈕還是可以點擊但沒有功能
             $(".sign-btn").attr("disabled", true);
             
@@ -316,11 +333,23 @@ $(document).ready(function () {
 
           
 });
+
+function round(){
+    $('.process').toggle();
+$('#result-img').html(
+    `<div id='animation' style="display: flex;">
+                <img src="./img/Cover.png" alt="">
+                <img src="./img/open.png" alt="">
+                
+            </div>`
+    )
+    setTimeout(round1,1000)
+}
+
 // ＝＝＝＝＝＝第一回合
 function round1(){
-    $('.process').toggle();
+    // $('.process').toggle();
     var i = Math.floor(Math.random()*3); 
-    var i = 2;
    if(i==2){
         $('#result-img').html(
         `<img src="./img/result${i}.png" alt="">`
@@ -328,7 +357,7 @@ function round1(){
         $('#round2').toggle();
         // $('#round1').toggle();
         $('#result').html(
-           `恭喜你·獲得一個聖筊・還差兩個加油`    
+           `累積一個聖筊・1/3`    
        );        
        console.log(i);                       
    }else if(i==0){
@@ -338,7 +367,7 @@ function round1(){
            );
         $('#Again').toggle();
         $('#result').html(
-            '好可惜笑筊,再向神明說明仔細點試試看'
+            '笑筊,再向神明說明仔細點試試看'
         );
         console.log(i);
    }else{
@@ -348,7 +377,7 @@ function round1(){
            );
         $('#Again').toggle();
         $('#result').html(
-            '陰筊,再跟神明誠心的請求'
+            '陰筊,再向神明誠心的請求'
         );
         console.log(i);
    };    
@@ -359,7 +388,6 @@ function round1(){
 // ＝＝＝＝＝＝第二回合
 function round2(){
     var i = Math.floor(Math.random()*3); 
-    var i = 2;
     if(i==2){ 
         $('#result-img').html(
             `<img src="./img/result${i}.png" alt="">`
@@ -367,7 +395,7 @@ function round2(){
         $('#round2').toggle();
         $('#round3').toggle();
         $('#result').html(
-           `太棒了·累積兩個聖筊・還差一個加油`
+           `累積兩個聖筊・2/3`
        )                      
        console.log(i);
    }else if(i==0){
@@ -377,7 +405,7 @@ function round2(){
     $('#round2').toggle();
     $('#Again').toggle();
     $('#result').html(
-           '好可惜笑筊,再向神明說明仔細點試試看'
+           '笑筊,再向神明說明仔細點試試看'
        )
        console.log(i); 
    }else{
@@ -387,7 +415,7 @@ function round2(){
     $('#round2').toggle();
     $('#Again').toggle();
     $('#result').html(                    
-        '陰筊,再跟神明誠心的請求'
+        '陰筊,再向神明誠心的請求'
        )
        console.log(i);
    }   
@@ -401,7 +429,7 @@ function round3(){
     if(i==2){
         
        $('#result').html(
-         '達到三個聖筊！！去解籤吧'
+         '三個聖筊！！去解籤吧'
        )
        $('#result-img').html(
         `<img src="./img/result${i}.png" alt="">`
@@ -414,7 +442,7 @@ function round3(){
         `<img src="./img/result${i}.png" alt="">`
        );
         $('#result').html(
-           '好可惜笑筊,再向神明說明仔細點試試看'
+           '笑筊,再向神明說明仔細點試試看'
          );
          $('#round3').toggle();
          $('#Again').toggle();
@@ -424,7 +452,7 @@ function round3(){
         `<img src="./img/result${i}.png" alt="">`
        );
     $('#result').html(
-       '"陰筊"再跟神明誠心的請求'
+       '"陰筊"再向神明誠心的請求'
        )
        $('#round3').toggle();
    $('#Again').toggle();

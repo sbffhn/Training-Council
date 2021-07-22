@@ -22,12 +22,13 @@ label #cancel{
     z-index: 999;
 }
 label #btn{
-    color:rgb(0, 0, 0);
-    font-size: 40px;
+    color:wheat;
+    font-size: 90px;
+    left: 30px;
     position:absolute;
     top: 25px;
-    display: none;
-    z-index: 998;
+    display: none; 
+    z-index: 99;
 }
 #check-btn{
     opacity: 1;
@@ -124,7 +125,7 @@ label #btn{
     background-color: antiquewhite;
 }
 #video{
-    background-image: url("/img/homevideo.jpeg");
+    background-image: url("./img/homevideo.jpeg");
     text-align: center;
     padding: 50px 0; 
     
@@ -162,6 +163,10 @@ label #btn{
 
 #content-img img{
     width: 100%;
+   
+}
+#content-img{
+    text-align: center;
     margin: auto;
 }
 #content-txt{
@@ -306,10 +311,7 @@ footer img{
         display: none;
     }
     label #btn{
-        color:rgb(0, 0, 0);
-        font-size: 50px;
-        position:absolute;
-        top: 25px;
+       
         display: block;
     }
     #video iframe{
